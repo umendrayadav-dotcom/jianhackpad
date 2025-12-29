@@ -95,22 +95,6 @@ leopad/
 - USB-C cable
 - Soldering equipment
 
-### Building the PCB
-
-1. Open the KiCad project file (`jianhackpad.kicad_pro`) in KiCad
-2. Review the schematic (`jainhackpad-schematic.kicad_sch`) and PCB layout (`jianhackpad.kicad_pcb`)
-3. Generate Gerber files for PCB manufacturing:
-   - File → Fabrication Outputs → Gerbers
-   - File → Fabrication Outputs → Drill Files
-4. Order PCBs from your preferred manufacturer (JLCPCB, PCBWay, etc.)
-5. Order components according to the Bill of Materials (BOM)
-
-### Assembly
-
-1. Solder the XIAO RP2040 module to the PCB
-2. Solder the SK6812MINI LEDs in their designated positions
-3. Install and solder the Cherry MX switches
-4. Flash firmware to the XIAO RP2040 (see Firmware section)
 
 ### Firmware
 
@@ -119,28 +103,4 @@ Firmware code will be added to the `Firmware/` directory. The board is compatibl
 - [QMK](https://qmk.fm/)
 - [KMK](https://github.com/KMKfw/kmk_firmware)
 - [ZMK](https://zmk.dev/)
-
-## Documentation
-
-- Schematic: `PCB/jainhackpad-schematic.kicad_sch`
-- PCB Layout: `PCB/jianhackpad.kicad_pcb`
-- 3D Model: `CAD/jianhackpad.step`
-
-## License
-
-[Add your license here - e.g., MIT, GPL, CERN OHL, etc.]
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues, pull requests, or suggestions for improvements.
-
-## Acknowledgments
-
-- Seeed Studio for the XIAO RP2040 module
-- KiCad community for PCB design tools
-- Cherry for the MX switch standard
-
-## Support
-
-For questions, issues, or support, please open an issue on the project repository.
 
