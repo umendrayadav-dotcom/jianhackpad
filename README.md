@@ -1,10 +1,10 @@
-# LeoPad
+# jIAN HACKPAD
 
 A custom mechanical keyboard macropad featuring RGB backlighting and powered by the Seeed Studio XIAO RP2040 microcontroller.
 
 ## Overview
 
-LeoPad is a 12-key mechanical keyboard PCB designed for custom macropad builds. The board features Cherry MX compatible switches, addressable RGB LEDs, and a compact form factor perfect for programmable shortcuts and macros.
+JIANHACKPAD is a 12-key mechanical keyboard PCB designed for custom macropad builds. The board features Cherry MX compatible switches, addressable RGB LEDs, and a compact form factor perfect for programmable shortcuts and macros.
 
 ![PCB Render](resources/pcb.png)
 
@@ -23,7 +23,7 @@ LeoPad is a 12-key mechanical keyboard PCB designed for custom macropad builds. 
 ## Project Structure
 
 ```
-leopad/
+jianhackpad/
 ├── CAD/                    # 3D CAD models
 │   └── jianhackpad.step   # 3D model in STEP format
 ├── Firmware/               # Firmware code (to be added)
